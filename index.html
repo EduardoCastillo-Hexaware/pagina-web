@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Estudio Fotografico</title>
 </head>
-<body style="background-color: aqua;">
+<body>
     <h1>Welcome to Photo Study</h1>
     <table style="border: 1ch;">
         <tr>
@@ -15,5 +17,13 @@
         </tr>
         <tr><td>Hello</td><td>Marcos</td></tr>
     </table>
+
+    <form onsubmit="submitForm()">
+        <label for="name">name</label>
+        <input type="text">
+        <label for="pss">Pss</label>
+        <input type="password">
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
